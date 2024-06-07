@@ -6,7 +6,6 @@ import javax.swing.JLabel;
 import javax.swing.JTextArea;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
-import java.lang.invoke.StringConcatFactory;
 import java.awt.event.ActionEvent;
 import java.awt.Color;
 import java.awt.SystemColor;
@@ -14,7 +13,6 @@ import java.awt.SystemColor;
 public class progGUI5 {
 
 	private JFrame frmPower;
-	private static int factorial=1;
 	/**
 	 * Launch the application.
 	 */

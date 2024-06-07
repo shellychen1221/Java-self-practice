@@ -1,22 +1,15 @@
-import java.awt.Color;
 import java.awt.EventQueue;
 import java.awt.Font;
-import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JTextField;
-import javax.swing.SwingConstants;
 
 import javax.swing.JButton;
-import java.awt.Font;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Scanner;
 import java.awt.event.ActionEvent;
 import javax.swing.JTextArea;
-import javax.swing.JSeparator;
-import javax.swing.JSpinner;
 import javax.swing.JLabel;
 
 public class prog4 {

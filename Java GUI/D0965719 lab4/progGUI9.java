@@ -1,16 +1,11 @@
-import java.awt.Color;
 import java.awt.EventQueue;
 import java.awt.Font;
 import java.awt.SystemColor;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.Random;
-
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JTextArea;
-import javax.swing.SwingConstants;
 
 public class progGUI9 {
 
@@ -59,9 +54,6 @@ public class progGUI9 {
 		lblOddNumber.setBounds(10, 118, 118, 30);
 		frmEvenNumberOdd.getContentPane().add(lblOddNumber);
 		
-		
-		
-		
 		JButton btnNewButton = new JButton("1");
 		btnNewButton.setBackground(SystemColor.inactiveCaption);
 		btnNewButton.addActionListener(new ActionListener() {
@@ -83,7 +75,7 @@ public class progGUI9 {
                     lblNewLabel_3.setBounds(125+15*i, 118, 118, 30);
                     frmEvenNumberOdd.getContentPane().add(lblNewLabel_3);
                     String ii= String.valueOf(i);
-                    lblNewLabel_3.setText(i+" ");
+                    lblNewLabel_3.setText(ii+" ");
                 }
 			}
 		});
